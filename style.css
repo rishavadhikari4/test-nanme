@@ -379,3 +379,16 @@ button:hover .icon-3 {
       transform: rotate(0);
   }
 }
+a:link, a:visited {
+  background-color: #FFD18E;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
