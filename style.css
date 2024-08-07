@@ -50,16 +50,33 @@ body{
   font-size: 50px;
 
 }
-#bbypic{
 
+#bbypic {
   width: 200px;
   border-radius: 30px;
 }
-#helloooo{
+
+#helloooo {
   display: flex;
   justify-content: center;
 }
 
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  #bbypic {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #bbypic {
+    width: 100px;
+  }
+  #helloooo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 label {
     color: white;
