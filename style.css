@@ -10,6 +10,7 @@ body{
     color: black;
     font-size: 2vw; /* Responsive font size using vw units */
     font-family: "Sofia", sans-serif;
+    overflow: hidden;
 }
 
 /* Media query for smaller screens */
@@ -25,6 +26,38 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;    
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#love{
+  color: red;
+  font-size: 50px;
+
+}
+#bbypic{
+
+  width: 200px;
+  border-radius: 30px;
+}
+#helloooo{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -346,27 +379,4 @@ button:hover .icon-3 {
   100% {
     transform: rotate(0);
   }
-}
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  justify-content: center;
-  display: flex;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-#love{
-  color: red;
-  font-size: 50px;
-  
 }
