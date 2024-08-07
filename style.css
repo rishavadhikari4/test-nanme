@@ -321,7 +321,7 @@ button:hover {
 
 @media only screen and (max-width: 480px) {
   #bbypic {
-      width: 100px;
+      width: 150px;
   }
   #helloooo {
       flex-direction: column;
