@@ -7,7 +7,7 @@ body{
     width: 80%; /* Adjusted width for responsiveness */
     padding: 10px;
     text-align: center;
-    color: #FFEBD4;
+    color: black;
     font-size: 2vw; /* Responsive font size using vw units */
     font-family: "Sofia", sans-serif;
 }
@@ -202,7 +202,7 @@ label {
     text-align: center;
     font-family: "Sofia", sans-serif;
     font-size: 72px;
-    background: -webkit-linear-gradient(#921A40, #F4D9D0 );
+    background: -webkit-linear-gradient( orange, red );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -364,4 +364,9 @@ button:hover .icon-3 {
   content: "";
   clear: both;
   display: table;
+}
+#love{
+  color: red;
+  font-size: 50px;
+  
 }
