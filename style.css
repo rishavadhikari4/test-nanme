@@ -1,13 +1,13 @@
 body{
     /* background-color: #FBEAEB; */
-    background-color: #F96167;
+    background-color: #F0A8D0;
 }
 #firsttext {
     margin: auto;
     width: 80%; /* Adjusted width for responsiveness */
     padding: 10px;
     text-align: center;
-    color: #F9E795;
+    color: #FFEBD4;
     font-size: 2vw; /* Responsive font size using vw units */
     font-family: "Sofia", sans-serif;
 }
@@ -19,6 +19,14 @@ body{
         font-size: 3vw; /* Further adjusted font size for smaller screens */
     }
 }
+#pic{
+  flex: auto;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
 
 label {
     color: white;
@@ -194,7 +202,7 @@ label {
     text-align: center;
     font-family: "Sofia", sans-serif;
     font-size: 72px;
-    background: -webkit-linear-gradient(#ff0000, #1e00ff);
+    background: -webkit-linear-gradient(#921A40, #F4D9D0 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -210,8 +218,4 @@ label {
       font-size: 36px;
     }
   }
-  #pic{
-    flex: auto;
-    width: auto;
-    text-align: center;
-  }
+  
