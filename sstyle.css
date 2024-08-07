@@ -29,7 +29,7 @@
 span.seis{
   position: absolute;
   top: 50%;
-  right: 50%;
+  right: 55%;
   margin-right: -200px;
   animation: vai_2016 5s ease-in-out 5s forwards;
 }
@@ -106,7 +106,7 @@ span.sete:before{
     margin-right: -300px;
   }
   100% {
-    right: 50%;
+    right: 55%;
   }
 }
 @keyframes vem_e_vai_balao {
@@ -118,13 +118,13 @@ span.sete:before{
     margin-right: -300px;
   }
   50% {
-    right: 50%;
+    right: 55%;
     margin-right: -200px;
     top: 50%;
   }
   100% {
     top: -100%;
-    right: 50%;
+    right: 55%;
   }
 }
 @keyframes entrega_balao {
