@@ -218,11 +218,10 @@ label {
       font-size: 36px;
     }
   }
-  /* From Uiverse.io by pritamjoardar */ 
 button {
   position: relative;
   padding: 15px 45px;
-  background: #f0e644;
+  background: #FFD18E;
   font-size: 17px;
   font-weight: 500;
   color: #181818;
@@ -348,7 +347,21 @@ button:hover .icon-3 {
     transform: rotate(0);
   }
 }
-#button-centre{
-  display: flex;
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
   justify-content: center;
+  display: flex;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
